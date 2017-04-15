@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true,
+        "outFile": "data/bundle.js",
+        "baseUrl": "src",
+        "paths": {
+            "*": ["*", "../data/*"]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "data/*.d.ts"
+    ]
+}

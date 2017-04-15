@@ -1,0 +1,5 @@
+/build/
+/data/chrome_root/
+/data/closure-compiler*
+/data/bundle.js
+/data/bundle.js.map
